@@ -1,0 +1,26 @@
+{
+  "name": "parcel-ng-lazy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^5.1.0",
+    "@angular/compiler": "^5.1.0",
+    "@angular/core": "^5.1.0",
+    "@angular/platform-browser": "^5.1.0",
+    "@angular/platform-browser-dynamic": "^5.1.0",
+    "@angular/router": "^5.1.0",
+    "parcel-bundler": "^1.2.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.5.5",
+    "typescript": "^2.6.2",
+    "zone.js": "^0.8.18"
+  }
+}
