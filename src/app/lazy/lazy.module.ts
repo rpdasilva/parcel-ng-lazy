@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { LazyComponent } from './components/lazy.component';
+import { routes } from './lazy.routes';
+import { LazyComponent } from './components/lazy/lazy.component';
 
 @NgModule({
   imports: [
-    RouterModule.forChild([
-      { path: '', component: LazyComponent }
-    ])
+    RouterModule.forChild(routes)
   ],
   declarations: [LazyComponent]
 })

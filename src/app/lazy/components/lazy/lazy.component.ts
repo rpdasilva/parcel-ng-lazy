@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-lazy',
-  template: `<h2>Lazy {{message}}</h2>`
+  templateUrl: './lazy.component.html',
+  styleUrls: ['./lazy.component.css']
 })
 export class LazyComponent {
   message = 'component';
